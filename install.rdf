@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+     <Description about="urn:mozilla:install-manifest">
+     	<em:id>pigeon-plugin@ancode.org</em:id>
+     	<em:version>0.1</em:version>
+     	<em:type>2</em:type>
+     	<em:unpack>false</em:unpack>
+     	<em:targetApplication>
+     		<Description>
+     			<em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id> <!-- Thunderbird -->
+     			<em:minVersion>17.0</em:minVersion>
+     			<em:maxVersion>27.0</em:maxVersion>
+     		</Description>
+     	</em:targetApplication>
+     	<em:name>pigeon</em:name>
+     	<em:description>pigeon mail encryption</em:description>
+     	<em:creator>Ancode Team</em:creator>
+     	<em:homepageURL>http://www.ancode.org</em:homepageURL>
+     	<em:optionsURL>chrome://ancode/content/preferencesTab.xul</em:optionsURL>
+     </Description>
+</RDF>

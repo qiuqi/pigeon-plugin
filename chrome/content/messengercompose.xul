@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<overlay id="composeToolbar2"
+	    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/x-javascript" src="chrome://pigeon/content/messengercompose.js" />
+	<script type="application/x-javascript" src="chrome://pigeon/content/jquery-2.0.3.js" />
+    <toolbar id="composeToolbar2">
+    	<toolbarbutton 
+    		class="toolbarbutton-1" 
+    		id="button-pigeon" 
+    		label="鸽子密邮" 
+    		tooltiptext="开启鸽子密邮加密邮件" 
+    		now_label="鸽子密邮" 
+    		image="chrome://pigeon/skin/icon/lock_locked.png"
+    		now_tooltiptext="开启鸽子密邮加密邮件" 
+    		oncommand="testTb()"
+    		disabled="false" />
+    </toolbar>	    
+</overlay>
