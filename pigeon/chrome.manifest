@@ -1,0 +1,5 @@
+content pigeon chrome/content/
+skin pigeon core chrome/skin/
+resource icons chrome/icon/
+overlay chrome://messenger/content/messengercompose/messengercompose.xul chrome://pigeon/content/messengercompose.xul
+overlay chrome://messenger/content/messenger.xul chrome://pigeon/content/messenger.xul
